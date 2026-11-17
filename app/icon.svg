@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="14" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="ivoryGrad" x1="20" y1="16" x2="44" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Architectural Frame -->
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#bgGrad)" />
+  <rect x="3" y="3" width="58" height="58" rx="14" stroke="url(#goldGrad)" stroke-width="2" stroke-opacity="0.85" />
+
+  <!-- Architectural Keystone Pitched Roof & Monogram -->
+  <path
+    d="M15 28L32 14L49 28"
+    stroke="url(#goldGrad)"
+    stroke-width="3.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Left Tower Pillar -->
+  <path
+    d="M21 29V48H27.5V24.5L21 29Z"
+    fill="url(#ivoryGrad)"
+  />
+
+  <!-- Center Keystone Spire -->
+  <path
+    d="M30 22.5L32 20.8L34 22.5V48H30V22.5Z"
+    fill="url(#goldGrad)"
+  />
+
+  <!-- Right Tower Wing -->
+  <path
+    d="M36.5 24.5V48H43V29L36.5 24.5Z"
+    fill="url(#ivoryGrad)"
+    fill-opacity="0.92"
+  />
+
+  <!-- Foundation Plinth -->
+  <rect x="17" y="47" width="30" height="3.2" rx="1.6" fill="url(#goldGrad)" />
+</svg>

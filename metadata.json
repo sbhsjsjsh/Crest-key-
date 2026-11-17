@@ -1,0 +1,6 @@
+{
+  "name": "Keystone Broker OS",
+  "description": "Manage RERA listings, WhatsApp buyer pipelines, Sec 194-IA TDS net sheets, and Home Loan EMI calculators in one white-label Indian real estate CRM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
